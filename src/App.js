@@ -26,7 +26,8 @@ function App() {
   const [fetchError, setFetchError] = useState(null);
   //navigate is used to send user to a certain directory
   const navigate = useNavigate();
-  const API_URL = 'http://localhost:3500/posts';
+  //const API_URL = 'http://localhost:3500/posts';
+  const API_URL = 'https://my-json-server.typicode.com/Zohaib560/Blog-App-Database'
 
   //fetch data
   useEffect(() => {
